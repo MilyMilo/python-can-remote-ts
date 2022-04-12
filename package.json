@@ -1,7 +1,6 @@
 {
   "name": "python-can-remote-ts",
-  "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./src/python-can-remote.ts",
   "scripts": {
     "dev": "vite",
@@ -16,5 +15,15 @@
   },
   "dependencies": {
     "eventemitter3": "^4.0.7"
-  }
+  },
+  "license": "MIT",
+  "keywords": [
+    "can",
+    "python",
+    "typescript"
+  ],
+  "files": [
+    "src/",
+    "dist/"
+  ]
 }
